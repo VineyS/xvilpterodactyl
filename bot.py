@@ -23,7 +23,7 @@ async def on_ready():
     change_status.start()
 
 initial_extension = ['cogs.admin',
-                     'cogs.pterylink',
+                     'cogs.pterolink',
                      'cogs.info',]
 if __name__ == '__main__':
     for extension in initial_extension:
