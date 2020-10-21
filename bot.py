@@ -5,7 +5,8 @@ from discord.ext.commands import has_permissions, CheckFailure, MissingPermissio
 import sqlite3
 import sys
 import traceback
-bot = commands.Bot(command_prefix= "xp!")
+intents = discord.Intents.all()
+bot = commands.Bot(command_prefix= "xp!", intents=intents)
 #bot.remove_command('help')
 @bot.event
 async def on_ready():
