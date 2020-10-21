@@ -39,7 +39,7 @@ async def change_status():
     for s in emmem:
         sum1+=len(s.members)
     
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="Plethonode Pterodactyl Panel | v0.7"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="xViL Pterodactyl Panel | v0.7"))
     await asyncio.sleep(5)
     await bot.change_presence(activity=discord.Activity(name=f"{len(bot.guilds)} servers | {sum1} Users", type=discord.ActivityType.watching))
     
